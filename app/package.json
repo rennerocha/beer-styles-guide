@@ -1,0 +1,19 @@
+{
+  "name": "beer-styles-guide",
+  "version": "1.0.0",
+  "description": "Beer Styles Guide Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "test command"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rennerocha/beer-styles-guide.git"
+  },
+  "author": "Renne Rocha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rennerocha/beer-styles-guide/issues"
+  },
+  "homepage": "https://github.com/rennerocha/beer-styles-guide#readme"
+}
