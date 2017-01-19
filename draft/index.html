@@ -11,7 +11,211 @@
     <link href="static/css/index.css" rel="stylesheet">
   </head>
   <body>
-    <h1>Beer Styles Guide</h1>
+    <div id="root" class="container">
+
+      <nav class="navbar navbar-inverse navbar-fixed-top navigation-bar" role="navigation">
+          <div class="container">
+              <div class="navbar-header">
+                  <a class="navbar-brand" href="#">Styles Guidelines</a>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                      <li>
+                          <a href="#">BJCP</a>
+                      </li>
+                      <li class="active">
+                          <a href="#">Brewers Association</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+
+      <div class="row">
+
+        <div class="col-sm-3 side-bar">
+          <input type="text" placeholder="Search beer style..." />
+          <div class="list-group">
+            <a href="#" class="list-group-item active ba-main-category">
+              British Origin Ale Styles
+            </a>
+            <a href="#" class="list-group-item">Ordinary Bitter</a>
+            <a href="#" class="list-group-item">Special Bitter or Best Bitter</a>
+            <a href="#" class="list-group-item">Extra Special Bitter</a>
+            <a href="#" class="list-group-item">Scottish-Style Light Ale</a>
+            <a href="#" class="list-group-item">Scottish-Style Heavy Ale</a>
+            <a href="#" class="list-group-item">Scottish-Style Export Ale</a>
+            <a href="#" class="list-group-item">English-Style Summer Ale</a>
+            <a href="#" class="list-group-item ba-active-subcategory">Classic English-Style Pale Ale</a>
+            <a href="#" class="list-group-item">English-Style India Pale Ale</a>
+            <a href="#" class="list-group-item">Strong Ale</a>
+            <a href="#" class="list-group-item">Old Ale</a>
+            <a href="#" class="list-group-item">English-Style Pale Mild Ale</a>
+            <a href="#" class="list-group-item">English-Style Dark Mild Ale</a>
+            <a href="#" class="list-group-item">English-Style Brown Ale</a>
+            <a href="#" class="list-group-item">Brown Porter</a>
+            <a href="#" class="list-group-item">Robust Porter</a>
+            <a href="#" class="list-group-item">Sweet Stout or Cream Stout</a>
+            <a href="#" class="list-group-item">Oatmeal Stout</a>
+            <a href="#" class="list-group-item">Scotch Ale</a>
+            <a href="#" class="list-group-item">British-Style Imperial Stout</a>
+            <a href="#" class="list-group-item">British-Style Barley Wine Ale</a>
+
+            <a href="#" class="list-group-item active ba-main-category">
+              Irish Origin Ale Styles
+            </a>
+            <a href="#" class="list-group-item active ba-main-category">
+              North American Origin Ale Styles
+            </a>
+            <a href="#" class="list-group-item active ba-main-category">
+              German Origin Ale Styles
+            </a>
+            <a href="#" class="list-group-item active ba-main-category">
+              Belgian and French Origin Ale Styles
+            </a>
+            <a href="#" class="list-group-item active ba-main-category">
+              Other Origin Ale Styles
+            </a>
+            <a href="#" class="list-group-item active ba-main-category">
+              European-Germanic Origin Lager Styles
+            </a>
+            <a href="#" class="list-group-item active ba-main-category">
+              North American Origin Lager Styles
+            </a>
+            <a href="#" class="list-group-item active ba-main-category">
+              Other Origin Lager Styles
+            </a>
+            <a href="#" class="list-group-item active ba-main-category">
+              All Origin Hybrid/Mixed Lagers or Ales
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-9 main-content">
+
+          <div class="row beer-style-title">
+            <div class="col-sm-12">
+                <h2>Classic English-Style Pale Ale</h2>
+            </div>
+          </div>
+
+          <div id="beer-style-details" class="row">
+
+            <div class="col-sm-9 beer-style">
+              <p>Classic English-Style Pale Ales are gold to copper colored. Chill haze may be evident only at very cold temperatures. Low to medium malt aroma and moderate to strong fruity-ester aroma are present. Hop aroma is medium to medium-high. Low to medium malt flavor is present, and low caramel character is allowable. Hop flavor is medium to medium-high. Earthy and herbal English-variety hop character is the perceived end, but may be a result of the skillful use of hops of other national origins. Hop bitterness is medium to medium-high. Fruity-ester flavors are moderate to strong. Diacetyl can be absent or may be perceived at very low levels. Body is medium.</p>
+
+
+            </div>
+
+            <div class="col-sm-3">
+              <div class="panel panel-default">
+                <div class="panel-heading">Vital Statistics</div>
+                <div class="panel-body">
+                  <strong>OG</strong> 1.040-1.056<hr/>
+                  <strong>FG</strong> 1.008-1.016<hr/>
+                  <strong>ABV</strong> 4.4%-5.3%<hr/>
+                  <strong>OG</strong> 1.040-1.056<hr/>
+                  <strong>IBU</strong> 20-40<hr/>
+                  <strong>EBC</strong> 10-24 EBC
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>  <!-- main-content -->
+
+      </div>
+
+      <div class="row footer">
+        <div class="col-sm-12">
+          2017 <a href="https://www.brewersassociation.org/resources/brewers-association-beer-style-guidelines/">Brewers Association Beer Style Guidelines</a> used with permission of Brewers Association
+        </div>
+      </div>
+
+    </div>
+
+
+<!--       <div id="navigation-bar">
+
+      <div class="row">
+        <div id="side-bar" class="col-md-3" style="background-color: #f00">
+          <input type="text" placeholder="Search..." />
+          <hr />
+
+          <h3>Ale Style</h3>
+          <ul>
+            <li>
+              <a href="#">British Origin</a>
+              <ul>
+                <li>Ordinary Bitter</li>
+                <li>Special Bitter or Best Bitter</li>
+                <li>Extra Special Bitter</li>
+                <li>Scottish-Style Light Ale</li>
+                <li>Scottish-Style Heavy Ale</li>
+                <li>Scottish-Style Export Ale</li>
+                <li>English-Style Summer Ale</li>
+                <li>Classic English-Style Pale Ale</li>
+                <li>English-Style India Pale Ale</li>
+                <li>Strong Ale</li>
+                <li>Old Ale</li>
+                <li>English-Style Pale Mild Ale</li>
+                <li>English-Style Dark Mild Ale</li>
+                <li>English-Style Brown Ale</li>
+                <li>Brown Porter</li>
+                <li>Robust Porter</li>
+                <li>Sweet Stout or Cream Stout</li>
+                <li>Oatmeal Stout</li>
+                <li>Scotch Ale</li>
+                <li>British-Style Imperial Stout</li>
+                <li>British-Style Barley Wine Ale</li>
+              </ul>
+            </li>
+            <li>Irish Origin</li>
+            <li>North American Origin</li>
+            <li>German Origin</li>
+            <li>Belgian and French Origin</li>
+            <li>Other Origin</li>
+          </ul>
+
+          <h3>Lager Style</h3>
+          <ul>
+            <li>European-Germanic Origin</li>
+            <li>North American Origin</li>
+            <li>Other Origin</li>
+          </ul>
+
+          <h3>Hybrid/Mixed Lagers or Ale</h3>
+          <ul>
+            <li>All Origin Hybrid</li>
+          </ul>
+        </div>
+
+        <div id="main-content" class="col-md-9" style="background-color: #f0F">
+
+          <div class="container">
+
+            <div id="style-title" class="row">
+              <div class="col-md-12">
+                <h1>Classic English-Style Pale Ale</h1>
+              </div>
+            </div>
+
+            <div id="style-details" class="row">
+              <div class="col-md-9">
+                fsdf
+              </div>
+              <div class="col-md-3">
+                xxx
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div> -->
   </body>
 </html>
-
