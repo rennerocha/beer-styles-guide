@@ -1,0 +1,46 @@
+body {
+    padding-top: 70px;
+}
+
+.side-bar {
+    text-align: center;
+}
+
+.side-bar input {
+    text-align: center;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin-bottom: 15px;
+}
+
+.side-bar .list-group-item {
+    padding: 8px;
+    text-align: left;
+}
+
+.side-bar .ba-main-category {
+    margin-bottom: 1px;
+}
+
+.side-bar .ba-main-category:hover {
+    background-color: #555;
+}
+
+.side-bar .ba-active-subcategory {
+    background-color: #eee;
+    color: #777;
+}
+
+.side-bar .ba-active-subcategory:hover {
+    background-color: #eee;
+    color: #777;
+}
+
+.beer-style {
+    line-height: 1.8;
+}
+
+.footer {
+    text-align: center;
+}
