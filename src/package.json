@@ -1,0 +1,31 @@
+{
+  "name": "beer-styles-guide",
+  "version": "1.0.0",
+  "description": "Beer Styles Guide Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rennerocha/beer-styles-guide.git"
+  },
+  "author": "Renne Rocha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rennerocha/beer-styles-guide/issues"
+  },
+  "homepage": "https://github.com/rennerocha/beer-styles-guide#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-react": "^6.16.0",
+    "html-webpack-plugin": "^2.26.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
